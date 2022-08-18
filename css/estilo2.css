@@ -294,3 +294,17 @@ main div img{
     100%{background-image: url(../assets/img/img5.jpg)}
     
 }
+
+header ul li:hover{
+transform: translate(-20px,5px);
+}
+
+footer ul li:hover{
+    transform: translate(0px,15px);
+    
+    }
+
+header div img:hover{
+    transform: translate(-30px,25px);
+    transform: scale(1.3,1.3);
+}
