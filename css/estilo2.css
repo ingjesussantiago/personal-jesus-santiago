@@ -14,8 +14,11 @@ body{
     grid-template-areas: 
     " header header header header"
     "main main main main"
-    "footer footer footer footer"
-}
+    "footer footer footer footer";
+    grid-gap:7px;
+    background-color:rgb(32, 34, 34);
+    opacity: .65;
+ }
 
 .header{
     grid-area: header;
@@ -336,3 +339,4 @@ transform: scale(1.2,1.2);
     100%{transform: translate(-1000px)}
     
 }
+
